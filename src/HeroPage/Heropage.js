@@ -1,15 +1,18 @@
 import React from 'react'
-// import Classcomponent from '../Components/Classcomponent'
-import Functioncomponent from '../Components/Types/Functioncomponent'
-import Parentcomponent from '../Components/Props/Parentcomponent'
+import Functioncomponent from '../Components/Functioncomponent'
+import Parent from '../Props/Parent'
+import Details from '../Destructuring/Details'
+import PrintList from '../ListsRendering/PrintList'
 const Heropage = () => {
   return (
     <div>
-      {/* <Classcomponent/> */}
       <Functioncomponent/>
       <hr />
-      <Parentcomponent/>
+      <Parent/>
       <hr />
+      <Details/>
+      <hr />
+      <PrintList/>
     </div>
   )
 }
