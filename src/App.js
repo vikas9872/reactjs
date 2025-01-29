@@ -1,9 +1,9 @@
 import './App.css';
-import Heropage from '../src/HeroPage/Heropage';
+import OnChange from './Hooks/OnChage/OnChange';
 function App() {
   return (
     <div className="App">
-      <Heropage/>
+      <OnChange/>
     </div>
   );
 }

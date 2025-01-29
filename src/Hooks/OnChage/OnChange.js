@@ -35,11 +35,14 @@ const OnChange = () => {
             <p>Payment: {payment}</p>
 
             <label>
+                <input type="radio" value="Pick Up" checked={shipping === "Pick Up"} onChange={handleShippingChange}/>
                 Pick up
-            </label>
+            </label><br />
             <label>
+            <input type="radio" value="Delivery" checked={shipping === "Delivery"} onChange={handleShippingChange}/>
                 Delivery
             </label>
+            <p>Shipping: {shipping}</p>
         </div>
     )
 }
