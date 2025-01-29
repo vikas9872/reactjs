@@ -1,6 +1,5 @@
 import { fruits } from './Lists'
 import React from 'react'
-import "./PrintList.css"
 
 const PrintList = () => {
   return (
